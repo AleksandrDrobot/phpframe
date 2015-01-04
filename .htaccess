@@ -1,0 +1,9 @@
+
+RewriteEngine on
+RewriteRule ^([^/\.]+)/?$ index.php?section=$1 [L]
+
+Redirect /aut /?section=rootAutorization
+Redirect /cp /?section=controlPanel
+
+
+

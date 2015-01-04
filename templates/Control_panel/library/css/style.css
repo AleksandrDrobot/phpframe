@@ -1,0 +1,203 @@
+.header {
+	width: 100%;
+	height: 71px;
+	background-color: #646C7A;
+	background-image: url("/templates/Control_panel/library/img/bg_header_admin.png");
+	padding: 10px;
+	margin-left: 8px;
+	position: relative;
+	margin-bottom: 20px;
+	box-shadow: 0 0 10px #555;
+}	
+
+
+
+.left {
+	position: relative;
+	overflow: hidden;
+	width: 0px;
+	padding-bottom: 50px;
+	background: rgba(226, 235, 237, 0.32);
+
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	margin-right: 40px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.open_panel {
+	width: 210px;
+	margin-right: -45px;
+
+
+}
+
+
+.right {
+	min-height: 500px;
+	margin-left: 37px;
+}
+
+.content {
+	overflow: auto;
+	width: 0px;
+	height: 100%;
+background-color: #B8E2DD;
+	opacity: 0.2;
+	-webkit-transition: 0.7s;
+	-o-transition: 0.7s;
+	transition: 0.7s;
+}
+
+/* хром, сафари */
+.content::-webkit-scrollbar { width: 0; }
+
+/* ie 10+ */
+.content { -ms-overflow-style: none; }
+
+/* фф (свойство больше не работает, других способов тоже нет)*/
+.content { overflow: -moz-scrollbars-none; }
+
+.open_page {
+	width: 100%;
+	opacity: 1;
+	background-color: rgba(255, 255, 255, 0);
+
+}
+
+.left .open_naw {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+.header .go_site {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+
+	z-index: 999;
+}
+
+
+.open_naw img{
+	width: 30px;
+}
+
+.header {
+
+	border-radius: 0px 0px 5px 5px;
+}
+
+.tb {
+	margin-top: -5px;
+}
+
+.wrap_icon_header {
+	padding: 5px;
+	padding-top: 9px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	border-radius: 4px;
+	transition: 1s;
+}
+.wrap_icon_header:hover {
+
+	background: rgba(213, 228, 228, 0.24);
+	box-shadow: 0 0 1px #b2b2b2;
+
+}
+
+.username {
+	position: absolute;
+	top: 19px;
+	left: 81px;
+	border-radius: 4px;
+	min-width: 100px;
+	background: rgba(0, 0, 0, 0.27);
+	color: #fff;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.phpframe {
+	position: absolute;
+	top: 19px;
+	right: 81px;
+	border-radius: 4px;
+	min-width: 100px;
+	background: rgba(0, 0, 0, 0.27);
+	color: #fff;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.phpframe img {
+	width: 20px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.site {
+	position: absolute;
+	top: 19px;
+	left: 271px;
+	border-radius: 4px;
+	min-width: 100px;
+	background: rgba(0, 0, 0, 0.27);
+	color: #fff;
+	font-size: 17px;
+	padding: 10px;
+	text-decoration: none;
+	color: #b2b2b2;
+
+}
+.site:hover{
+	text-decoration: none;
+	background: rgba(0, 0, 0, 0.48);
+	color: #fff;
+}
+
+.refresh {
+	position: absolute;
+	top: 19px;
+	left: 385px;
+	border-radius: 4px;
+	min-width: 100px;
+	background: rgba(0, 0, 0, 0.27);
+	color: #fff;
+	font-size: 17px;
+	padding: 10px;
+	text-decoration: none;
+	color: #b2b2b2;
+
+}
+.refresh:hover{
+	text-decoration: none;
+	background: rgba(0, 0, 0, 0.48);
+	color: #fff;
+}
+
+.username img {
+	width: 20px;
+	vertical-align: middle;
+	margin-right: 10px;
+
+}
+.wpapp_form_content_block {
+	margin-bottom: 20px;
+}
+.Copyright {
+   color: #000;
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+}
